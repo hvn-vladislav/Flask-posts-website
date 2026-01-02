@@ -46,7 +46,7 @@ Each post can include a title, textual content, and images. Users have full cont
    Navigate to the project directory and start the Flask server:
 
    ```bash
-   python app.py
+   python main.py
    ```
 
 3. **Open in Browser**
