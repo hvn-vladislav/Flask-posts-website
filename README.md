@@ -70,8 +70,7 @@ This project is suitable for:
 
 ## Contact
 
-If you have questions or suggestions, feel free to reach out:
-
-Telegram: [https://t.me/vladislav_xternal](https://t.me/hvn_vladislav)
+If you have questions or need support, feel free to reach out to me:
+[Telegram](https://t.me/hvn_vladislav)
 
 ---
