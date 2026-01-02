@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ post.title }}</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="card">
+    <a href="http://127.0.0.1:5000/">
+      <button class="addnewpost">Back to Home</button>
+    </a>
+    <h1>{{ post.title }}</h1>
+    <p>{{ post.content }}</p>
+    {% if post.image %}
+        <img src="{{ post.image }}" alt="Post Image">
+    {% endif %}
+    <p>By: {{ post.username }}</p>
+    {% if current_user.id == post.author_id %}
+      <form method="POST"
+        action="{{ url_for('delete_post', post_id=post.id) }}">
+          <button type="submit" class="deletebtn">Delete Post</button>
+      </form>
+    {% elif current_user.id == 5 %}
+      <form method="POST"
+        action="{{ url_for('delete_post', post_id=post.id) }}">
+          <button type="submit" class="deletebtn">Delete Post</button>
+      </form>
+    {% endif %}
+  </div>
+</body>
+</html>

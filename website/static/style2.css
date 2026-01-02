@@ -1,0 +1,27 @@
+body {
+  overflow: hidden;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-borttom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #2196F3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h1 {
+  color: #2196F3;
+  text-align: center;
+  font-size: 36px;
+}
